@@ -3,8 +3,19 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="切换"/>
+    <Button
+        android:id="@+id/jump"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="跳转"/>
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="标题栏"
